@@ -8,7 +8,7 @@ export const fashionProducts = [
     {
         image: "https://rukminim2.flixcart.com/image/400/400/k2z1t3k0/jacket/z/v/x/m-9298233-mast-harbour-original-imafm78vbfvdzph7.jpeg?q=70",
         name: "Sweatshirts & Jackets",
-        offer: "From ₹249",
+        offer: "From ₱249",
         tag: "Wildcraft, Fort Collins...",
     },
     {
@@ -20,7 +20,7 @@ export const fashionProducts = [
     {
         image: "https://rukminim2.flixcart.com/image/400/400/xif0q/bra/1/7/e/lightly-padded-34e-regular-no-regular-br1804x01-clovia-original-imagg9ja3fadhyfh.jpeg?q=70",
         name: "Bra, Denims & T-Shirts",
-        offer: "From ₹399",
+        offer: "From ₱399",
         tag: "Zivame, Koty, Van Heusen",
     },
     {
@@ -38,7 +38,7 @@ export const fashionProducts = [
     {
         image: "https://rukminim2.flixcart.com/image/400/400/kpu3frk0/trouser/n/i/k/30-foilcombo9661-trend-level-original-imag3zggwyrwtbz9.jpeg?q=70",
         name: "Plazzos",
-        offer: "From ₹199",
+        offer: "From ₱199",
         tag: "Must Buy",
     },
 ];

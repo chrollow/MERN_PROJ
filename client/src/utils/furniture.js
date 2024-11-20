@@ -8,19 +8,19 @@ export const furnitureProducts = [
     {
         image: "https://rukminim2.flixcart.com/image/832/832/k3yrte80/collapsible-wardrobe/v/a/3/pp-88130-hcx-88130-pp-polypropylene-collapsible-wardrobe-finish-original-imaf744xhgmk6d7r.jpeg?q=70",
         name: "Wardrobes & More",
-        offer: "From ₹999",
+        offer: "From ₱999",
         tag: "Must Buy",
     },
     {
         image: "https://rukminim2.flixcart.com/image/612/612/kshtxu80/home-temple/5/7/f/22-32-5-1010-nifinity-45-original-imag6fz7agt98hwy.jpeg?q=70",
         name: "Wooden Mandir",
-        offer: "From ₹699",
+        offer: "From ₱699",
         tag: "Pooja Items",
     },
     {
         image: "https://rukminim2.flixcart.com/image/612/612/xif0q/tv-entertainment-unit/n/n/m/-original-imagrtbh4gh4nudw.jpeg?q=70",
         name: "TV Shelves",
-        offer: "From ₹1999",
+        offer: "From ₱1999",
         tag: "Top Selling",
     },
     {

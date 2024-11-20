@@ -78,7 +78,7 @@ const CartItem = ({ product, inCart }) => {
                         <div className="flex flex-col sm:gap-2 w-[50%]">
                             <p className="text-sm">
                                 Delivery by {getDeliveryDate()} |{" "}
-                                <span className="line-through">₹{40}</span>{" "}
+                                <span className="line-through">₱{40}</span>{" "}
                                 <span className="text-primaryGreen">Free</span>
                             </p>
                         </div>
@@ -88,13 +88,13 @@ const CartItem = ({ product, inCart }) => {
                     {/* <!-- price desc --> */}
                     <div className="flex items-baseline gap-2 text-xl font-medium">
                         <span className="text-sm text-gray-500 line-through font-normal">
-                            ₹
+                        ₱
                             {(
                                 product?.price * product?.quantity
                             ).toLocaleString()}
                         </span>
                         <span>
-                            ₹
+                        ₱
                             {(
                                 product?.discountPrice * product?.quantity
                             ).toLocaleString()}

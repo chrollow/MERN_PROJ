@@ -353,11 +353,11 @@ const ProductDetails = () => {
                                         </span>
                                         <div className="flex items-baseline gap-2 text-3xl font-medium">
                                             <span className="text-gray-800">
-                                                ₹
+                                            ₱
                                                 {product?.discountPrice?.toLocaleString()}
                                             </span>
                                             <span className="text-base text-gray-500 line-through">
-                                                ₹
+                                            ₱
                                                 {product?.price?.toLocaleString()}
                                             </span>
                                             <span className="text-base text-primaryGreen">
@@ -384,9 +384,9 @@ const ProductDetails = () => {
                                     </p>
 
                                     {[
-                                        "Flat ₹200 off on HDFC Bank Credit/Debit Card on 3 months EMI Txns, Min Txn Value ₹10,000",
-                                        "10% Instant Discount on ICICI Bank Credit Card Txns, up to ₹1250, on orders of ₹5000 and above",
-                                        "Flat ₹500 off on HDFC Bank Credit/Debit Card on 6 months EMI Txns, Min Txn Value ₹10,000",
+                                        "Flat ₱200 off on HDFC Bank Credit/Debit Card on 3 months EMI Txns, Min Txn Value ₱10,000",
+                                        "10% Instant Discount on ICICI Bank Credit Card Txns, up to ₱1250, on orders of ₱5000 and above",
+                                        "Flat ₱500 off on HDFC Bank Credit/Debit Card on 6 months EMI Txns, Min Txn Value ₱10,000",
                                     ].map((el, i) => (
                                         <div
                                             className="flex gap-2 text-xs sm:text-sm leading-4"
@@ -449,7 +449,7 @@ const ProductDetails = () => {
                                             Delivery
                                         </p>
                                         <span>
-                                            Delivery by {getDeliveryDate()} | ₹
+                                            Delivery by {getDeliveryDate()} | ₱
                                             40
                                         </span>
                                     </div>
@@ -541,16 +541,16 @@ const ProductDetails = () => {
                                     </div>
                                     {/* <!-- seller details --> */}
 
-                                    {/* <!-- flipkart plus banner --> */}
+                                    {/* <!-- ActiveAttireplus banner --> */}
                                     {/* <div className="lg:w-1/2 mt-4 border">
                                         <img
                                             draggable="false"
                                             className="w-full h-full object-fill"
                                             src="https://rukminim1.flixcart.com/lockin/763/305/images/promotion_banner_v2_active.png"
-                                            alt="flipkart plus"
+                                            alt="ActiveAttireplus"
                                         />
                                     </div> */}
-                                    {/* <!-- flipkart plus banner --> */}
+                                    {/* <!-- ActiveAttireplus banner --> */}
 
                                     {/* <!-- description details --> */}
                                     <div className="flex flex-col sm:flex-row gap-1 sm:gap-14 mt-4 items-stretch text-sm">

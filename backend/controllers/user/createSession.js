@@ -22,7 +22,7 @@ const createSession = async (req, res) => {
         // console.log(successURL, cancelURL);
         const lineItems = products?.map((item) => ({
             price_data: {
-                currency: "inr",
+                currency: "php",
                 //price goes in decimal so we have to multiply by 100
                 unit_amount: item.discountPrice * 100,
                 product_data: {
@@ -33,14 +33,14 @@ const createSession = async (req, res) => {
         }));
         const session = await stripeInstance.checkout.sessions.create({
             payment_method_types: ["card"],
-            currency: "inr",
+            currency: "php",
             line_items: lineItems,
             mode: "payment",
             success_url: successURL,
             cancel_url: cancelURL,
             customer_email: customerEmail,
             shipping_address_collection: {
-                allowed_countries: ["IN"], // Limit address collection to specific countries if needed
+                allowed_countries: ["PH"], // Limit address collection to specific countries if needed
             },
             phone_number_collection: {
                 enabled: true,

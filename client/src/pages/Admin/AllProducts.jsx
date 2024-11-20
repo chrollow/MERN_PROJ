@@ -117,7 +117,7 @@ const AllProducts = () => {
             align: "left",
             flex: 0.2,
             renderCell: (params) => {
-                return <span>₹{params.row.price?.toLocaleString()}</span>;
+                return <span>₱{params.row.price?.toLocaleString()}</span>;
             },
         },
         {
@@ -130,7 +130,7 @@ const AllProducts = () => {
             flex: 0.2,
             renderCell: (params) => {
                 return (
-                    <span>₹{params.row.discount_price?.toLocaleString()}</span>
+                    <span>₱{params.row.discount_price?.toLocaleString()}</span>
                 );
             },
         },
@@ -188,7 +188,7 @@ const AllProducts = () => {
     });
     return (
         <div className="relative p-2 w-full h-screen">
-            <SeoData title="All Products - Flipkart Seller" />
+            <SeoData title="All Products - ActiveAttireSeller" />
 
             {loading ? (
                 <Spinner />
